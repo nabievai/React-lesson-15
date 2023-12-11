@@ -1,0 +1,13 @@
+.todo-list-item {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .deleteBtn{
+        cursor: pointer;
+    }
+}

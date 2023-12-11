@@ -1,0 +1,59 @@
+.wrap-content {
+  padding: 50px;
+  .container {
+    max-width: 720px;
+    padding: auto;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: whitesmoke;
+    h1 {
+      margin-bottom: 20px;
+    }
+    .card-wrap .subtitle {
+      margin-bottom: 20px;
+    }
+    
+    .card-wrap .card-actions {
+      justify-content: flex-end;
+    }
+    .filter-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+    .btn-add {
+      font-size: 15px;
+    }
+    .title-toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  }
+}
+
+.theme-toggle {
+  font-size: 30px;
+  margin-right: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.wrap-content.light {
+  background-color: rgb(115, 196, 254);
+  color: #333;
+  .container.light{
+    background-color: white;
+  }
+}
+
+.wrap-content.dark {
+  background-color: rgb(70, 120, 184);
+  .container.dark{
+    background-color: rgb(233, 233, 233);
+  }
+}
+
+
